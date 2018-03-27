@@ -7,6 +7,9 @@ end
 
 ruby '2.5.0'
 
+gem 'cloudinary'
+
+gem 'figaro'
 
 gem 'pg'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
