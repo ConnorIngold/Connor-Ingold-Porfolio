@@ -69,6 +69,14 @@ a{
   text-decoration: none;
   color: #999999;
 }
+
+@media only screen and (max-width: 600px) {
+    .moblie-responsive {
+        display: flex;
+    }
+}
+
+
 /*first section ends here*/
 
 .content{
