@@ -1,0 +1,1 @@
+// alert('thank for visiting my site, however, this is a very new project it currently under development. Dont worry though Im currently devoting most of my time to get the full site up and running as fast as possible." "If you are a potential employer please do not consider what is currently on the site full extent of my capabilities this isnt even the tip of iceberg :P')
