@@ -1,9 +1,9 @@
 import Typed from 'typed.js';
 
 function loadDynamicBannerText() {
-  new Typed('#banner-typed-text', {
-    strings: ["One half logical the other half creative"],
-    typeSpeed: 50,
+  new Typed('#hello', {
+    strings: ["HTML/CSS", "Ruby/Ruby On Rails", "Javascript", "Git", "Heroku", "PhotoShop", "Sketch", "Bootstrap", "SCSS/SASS", "Type.js"],
+    typeSpeed: 100,
     loop: true
   });
 }

@@ -19,13 +19,14 @@
     <div class="banner-content">
       <h1>Connor Ingold<br>
       Full Stack Web Dev</h1>
-      <p>
-        <span id="banner-typed-text"></span>
-      </p>
-      <div class="moblie-responsive">
-        <a href="#" class="btn-medium-black">About My Logical Side</span>
-        <a href="#" class="btn-medium-purple">About My Creative Side</a>
+      <h3 class="light-font"> Skill Set:
+        <span id="hello"></span>
+      </h3>
+      <%= javascript_pack_tag 'application' %>
 
+      <div class="moblie-responsive">
+        <%= link_to "About My Logical Side", "underconstrution", class: "btn-medium-black" %>
+        <%= link_to "About My Creative Side", "underconstrution", class: "btn-medium-purple" %>
       </div>
 
     </div>
