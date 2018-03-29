@@ -6,13 +6,23 @@
   text-align: center;
 }
 
-.inner-navbar ul li{
+ul{
+  padding: 0px;
+}
+.inbetween ul li{
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
-  padding: 10px;
   color: white;
+  display: flex;
 }
 
+.inbetween{
+  padding: 15px;
+}
+.inbetween:hover{
+  text-decoration: none;
+  color: #BDBDBD;
+}
 
 .material-icons{
   color: white;
