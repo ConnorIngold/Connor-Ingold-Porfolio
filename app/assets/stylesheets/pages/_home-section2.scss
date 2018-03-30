@@ -6,6 +6,20 @@
 
 }
 
+.banner2 {
+  color: white;
+  text-align: center;
+  height: 110vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: auto !important;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // width-left: 50%;
+}
+
+
 .banner-content2{
   text-align: right;
   margin-left: auto;
@@ -17,11 +31,30 @@
 .second-heading{
   color: #B584E6;
   font-family: 'Catamaran', sans-serif;
+  text-shadow: 1px 1px rgba(0,0,0, 0.3);
 }
 
 .about-me2{
-  color: #ACACAC;
+  color: #D3D3D3;
   width: 50%;
   margin-left: auto;
   font-size: 18px;
+}
+
+.about-me3{
+  color: #bb93f2;
+  width: 30%;
+  margin-left: auto;
+  font-size: 24px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me3 {
+        display: none;
+    }
+}
+
+.quotation{
+  color: lightgrey;
 }
