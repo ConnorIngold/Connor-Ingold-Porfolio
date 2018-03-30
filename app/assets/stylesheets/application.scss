@@ -1,6 +1,8 @@
 // add folder for pages if more then 4-5 pages
-@import "home";
-@import "underdevelopment";
+@import "pages/home";
+@import "pages/home-section2";
+@import "pages/underdevelopment";
 
-// later on add a folder for components
-@import"navbar";
+@import"components/navbar";
+
+@import url('https://fonts.googleapis.com/css?family=Catamaran:800');
