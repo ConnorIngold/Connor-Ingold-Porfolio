@@ -1,0 +1,25 @@
+
+
+$white: #fff !default;
+$secondary: #2C3E50 !default;
+
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: $secondary;
+  color: $white;
+}
+
+.copyright {
+  background-color: darken($secondary, 10%);
+}
+
+.btn{
+  font-size: 35px;
+  color: #AD87E0;
+}
+
+.contact{
+  color: #AD87E0;
+}
