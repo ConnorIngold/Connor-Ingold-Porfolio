@@ -19,6 +19,11 @@
   // width-left: 50%;
 }
 
+@media only screen and (max-width: 600px) {
+    .banner2 {
+    height: 180vh;
+    }
+}
 
 .banner-content2{
   text-align: right;
