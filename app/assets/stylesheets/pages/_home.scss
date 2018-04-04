@@ -82,7 +82,7 @@ a{
 
 .btn-medium-purple {
   color: white;
-  background-color: #0582CA;
+  background-color: #AD87E0;
   padding: 10px 15px;
   border-radius: 50px;
   font-family: 'Indie Flower', cursive;
@@ -92,7 +92,7 @@ a{
 }
 .btn-medium-purple:hover {
   text-decoration: none;
-  color: #00A6FB;
+  color: #a400f7;
 
 }
 
@@ -133,14 +133,4 @@ a{
 font-family: 'Lato', sans-serif;
 font-family: 'Indie Flower', cursive;
 */
-.test{
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-decoration: none;
-}
 
