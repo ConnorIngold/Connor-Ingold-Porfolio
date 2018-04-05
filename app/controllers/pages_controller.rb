@@ -5,4 +5,8 @@ class PagesController < ApplicationController
   def underconstrution
 
   end
+
+  def home2
+
+  end
 end

@@ -1,6 +1,28 @@
-<html>
   <body>
   <!-- banner start here   -->
+
+
+
+  <div id="particles-js">
+    <div class="banner-content1">
+      <div class="actual-content-outer-div">
+          <h1 class="name1">Connor Ingold<br>
+          Full Stack Web Dev</h1>
+                  <h3 class="light-font"> Skill Set:
+            <span id="hello"></span>
+          </h3>
+          <%= javascript_pack_tag 'application' %>
+          <div class="moblie-responsive">
+            <%= link_to "Learn more about me", "underconstrution", class: "btn-medium-purple" %>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="particles.js"></script>
   <div class="outer-div-navbar">
     <div class="inner-navbar">
       <ul>
@@ -14,24 +36,6 @@
     </div>
   </div>
 
-
-  <div class="banner" style="background-image: linear-gradient(360deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/desmpz4mv/image/upload/v1522180720/572066.jpg');">
-    <div class="banner-content">
-      <h1>Connor Ingold<br>
-      Full Stack Web Dev</h1>
-      <h3 class="light-font"> Skill Set:
-        <span id="hello"></span>
-      </h3>
-      <%= javascript_pack_tag 'application' %>
-      <div class="wrapper">
-        <p class="about-me">Full stack web developer with a passion for elegant designs and a hunger to better then last time.</p>
-      </div>
-      <div class="moblie-responsive">
-        <%= link_to "Learn more about me", "underconstrution", class: "btn-medium-purple" %>
-      </div>
-    </div>
-  </div>
-
   <div class="banner2" style="background-image: url('https://res.cloudinary.com/desmpz4mv/image/upload/v1522405316/balcandwhite.jpg');">
     <div class="banner-content2">
       <h1 class="second-heading"><b class="quotation">"</b>A journey of a thousand miles<br>begins with a single step<b class="quotation">"</b></h1>
@@ -40,6 +44,10 @@
       However, I went through hell these past 3 months and I generally feel as I have walked a 1000 miles in terms of self-development. If you're interested in reading what I went through go check out my blog (coming soon)</p>
     </div>
   </div>
+
+
+
+
   <!-- banner ends here -->
         <!-- Footer -->
     <footer class="footer text-center">
@@ -86,5 +94,4 @@
     </footer>
   </body>
 </html>
-
 

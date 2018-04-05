@@ -15,10 +15,58 @@ a{
 }
 
 
+.outer-div-navbar{
+  z-index: 1;
+  index: 50;
+}
+
+
+#particles-js {
+background-image: linear-gradient(360deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('http://getwallpapers.com/wallpaper/full/b/4/4/23942.jpg');
+ height: 100vh;
+ background-repeat: no-repeat !important;
+ display: flex;
+}
+
+.banner-content1{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.actual-content-outer-div{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.actual-content-outer-div h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.light-font {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #bfbfbf;
+  margin-bottom: 30px;
+  position: relative;
+}
+
 
 .banner {
   color: white;
-  text-align: center;
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: auto !important;
@@ -34,10 +82,7 @@ a{
     height: 130vh;
     }
 }
-.banner h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
+
 .light-font {
   font-size: 40px;
   font-weight: lighter;
@@ -46,7 +91,6 @@ a{
 }
 
 .wrapper{
-  display: flex;
   width: 50%;
   float: center;
   align-items: center;
@@ -55,6 +99,9 @@ a{
   margin-right: auto;
 }
 .about-me{
+  position: absolute;
+  top: 40%;
+  left: 38%;
   text-align: center;
   float: center;
   display: inline-block;
@@ -92,8 +139,13 @@ a{
 }
 .btn-medium-purple:hover {
   text-decoration: none;
-  color: #a400f7;
+  color: #BDBDBD;
+}
 
+.moblie-responsive:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 // @media only screen and (max-width: 600px) {
@@ -133,14 +185,4 @@ a{
 font-family: 'Lato', sans-serif;
 font-family: 'Indie Flower', cursive;
 */
-.test{
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  text-decoration: none;
-}
 
