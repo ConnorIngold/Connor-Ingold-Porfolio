@@ -16,10 +16,54 @@ a{
 
 
 
+
+
 #particles-js {
-  background-image: linear-gradient(360deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://res.cloudinary.com/desmpz4mv/image/upload/v1522180720/572066.jpg');
+background-image: linear-gradient(360deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('http://getwallpapers.com/wallpaper/full/b/4/4/23942.jpg');
+ height: 100vh;
+ background-repeat: no-repeat !important;
+ display: flex;
+}
+
+.banner-content1{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.actual-content-outer-div{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.actual-content-outer-div h1{
+  font-size: 50px;
+  font-weight: bold;
   color: white;
   text-align: center;
+}
+
+
+
+
+
+
+
+.light-font {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #bfbfbf;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+
+.banner {
+  color: white;
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: auto !important;
@@ -31,18 +75,11 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
-    #particles-js {
+    .banner {
     height: 130vh;
     }
 }
-#particles-js h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
 
-.banner-content{
-  text-align: center;
-}
 .light-font {
   font-size: 40px;
   font-weight: lighter;
@@ -50,9 +87,7 @@ a{
   margin-bottom: 30px;
 }
 
-
 .wrapper{
-  display: flex;
   width: 50%;
   float: center;
   align-items: center;
@@ -61,6 +96,9 @@ a{
   margin-right: auto;
 }
 .about-me{
+  position: absolute;
+  top: 40%;
+  left: 38%;
   text-align: center;
   float: center;
   display: inline-block;
