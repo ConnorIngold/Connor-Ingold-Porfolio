@@ -15,7 +15,10 @@ a{
 }
 
 
-
+.outer-div-navbar{
+  z-index: 1;
+  index: 50;
+}
 
 
 #particles-js {
@@ -136,8 +139,13 @@ background-image: linear-gradient(360deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url
 }
 .btn-medium-purple:hover {
   text-decoration: none;
-  color: #a400f7;
+  color: #BDBDBD;
+}
 
+.moblie-responsive:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 // @media only screen and (max-width: 600px) {
