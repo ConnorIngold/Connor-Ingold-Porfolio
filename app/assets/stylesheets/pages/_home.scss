@@ -110,21 +110,22 @@ background-image: linear-gradient(360deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url
 }
 
 
-.btn-medium-black {
-  color: white;
-  background-color: black;
+.btn-medium {
+  color: #999999;
+  border: 1px solid white;
   padding: 10px 15px;
   border-radius: 50px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
-  font-size: 16px;
   opacity: 0.6;
-  margin: 5px;
+  width: 170px;
+  height: 130px;
 }
-.btn-medium-black:hover {
+.btn-medium:hover {
   opacity: 1;
   text-decoration: none;
-  color: #999999;
+  color: white;
+  width: 70px;
+  height: 30px;
 }
 
 .btn-medium-purple {
