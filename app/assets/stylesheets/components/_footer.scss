@@ -11,6 +11,19 @@ $secondary: #303E4E !default;
   color: $white;
 }
 
+@media only screen and (max-width : 600px) {
+  .footer{
+  margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width : 500px) {
+  .footer{
+  margin-top: 290px;
+  }
+}
+
+
 .copyright {
   background-color: darken($secondary, 10%);
 }
