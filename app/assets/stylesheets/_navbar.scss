@@ -12,8 +12,15 @@ ul{
 .inbetween ul li{
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
-  color: white;
+  color: blue;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .inner-navbar {
+    display: flex;
+  flex-direction: column;
+  }
 }
 
 .inbetween{
@@ -21,7 +28,7 @@ ul{
 }
 .inbetween:hover{
   text-decoration: none;
-  color: #BDBDBD;
+  color: #blue;
 }
 
 .material-icons{
@@ -40,7 +47,7 @@ ul{
   border: none;
   outline: none;
   background-color: red;
-  color: white;
+  color: blue;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
@@ -49,4 +56,3 @@ ul{
 #myBtn:hover {
   background-color: #555;
 }
-

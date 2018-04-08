@@ -9,12 +9,5 @@
 
 console.log('Hello World from Webpacker')
 
-window.onload = function() {
-  particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
-}
-
-
 import { loadDynamicBannerText } from '../components/banner';
 loadDynamicBannerText();
