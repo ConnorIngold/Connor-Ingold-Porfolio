@@ -29,6 +29,8 @@
   }
 }
 
+
+
 .banner-content3{
   display: flex;
   flex-direction: row;
@@ -60,7 +62,11 @@ height: 300px;
   }
 }
 
-
+@media only screen and (min-width : 1739px) {
+  .card-photoshop{
+    margin: 20px;
+  }
+}
 
 .inner-title{
   font-size: 50px;
@@ -69,7 +75,7 @@ height: 300px;
 
 .short-description{
   color: #A68ADB;
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify;
   text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.5);
 
