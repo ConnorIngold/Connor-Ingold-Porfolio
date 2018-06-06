@@ -27308,3 +27308,17 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 34ms (Views: 30.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-06-05 16:56:23 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 35ms (Views: 32.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-06 09:36:14 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (69.6ms)
+Completed 200 OK in 159ms (Views: 151.5ms)
+
+
