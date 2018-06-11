@@ -10,7 +10,9 @@
           </h3>
           <%= javascript_pack_tag 'application' %>
           <div class="moblie-responsive">
-            <%= link_to "Learn more about me", "underconstrution", class: "btn-medium" %>
+            <!-- <%= link_to "Learn more about me", "underconstrution", class: "btn-medium" %> -->
+            <button type="button" class="bttn-stretch" onclick="smoothScroll(document.getElementById('banner2'))" >Hover & Click For More </button>
+
           </div>
           </div>
       </div>
@@ -31,7 +33,7 @@
   </div>
 
 
-  <div class="banner2" style="background-image: url('https://res.cloudinary.com/desmpz4mv/image/upload/v1522405316/balcandwhite.jpg');">
+  <div class="banner2" id="banner2" style="background-image: url('https://res.cloudinary.com/desmpz4mv/image/upload/v1522405316/balcandwhite.jpg');">
     <div class="banner-content2">
       <h1 class="second-heading"><b class="quotation">"</b>A journey of a thousand miles<br>begins with a single step<b class="quotation">"</b></h1>
       <p class="about-me2"> By the Chinese philosopher Laozi</p>
@@ -41,7 +43,30 @@
   </div>
 
   <!-- banner2 ends here -->
+  <script type="text/javascript">
+  window.smoothScroll = function(target) {
+      var scrollContainer = target;
+      do { //find scroll container
+          scrollContainer = scrollContainer.parentNode;
+          if (!scrollContainer) return;
+          scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
 
+      var targetY = 0;
+      do { //find the top of target relatively to the container
+          if (target == scrollContainer) break;
+          targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function(c, a, b, i) {
+          i++; if (i > 30) return;
+          c.scrollTop = a + (b - a) / 30 * i;
+          setTimeout(function(){ scroll(c, a, b, i); }, 20);
+      }
+      // start scrolling
+      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+  }
+  </script>
   <!-- banner3 starts here -->
 
 <div class="container-fluid padding">

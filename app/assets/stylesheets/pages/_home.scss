@@ -116,56 +116,7 @@ a{
 }
 
 
-.btn-medium {
-  color: #999999;
-  border: 1px solid white;
-  padding: 10px 15px;
-  border-radius: 50px;
-  font-weight: lighter;
-  opacity: 0.6;
-  width: 170px;
-  height: 130px;
-  cursor: pointer;
-}
-.btn-medium:hover {
-  opacity: 1;
-  text-decoration: none;
-  color: white;
-  width: 70px;
-  height: 30px;
-}
-
-.btn-medium-purple {
-  color: white;
-  background-color: #AD87E0;
-  padding: 10px 15px;
-  border-radius: 50px;
-  font-family: 'Indie Flower', cursive;
-  font-weight: lighter;
-  font-size: 16px;
-  margin: 5px;
-}
-.btn-medium-purple:hover {
-  text-decoration: none;
-  color: #BDBDBD;
-}
-
-.moblie-responsive:hover{
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-// @media only screen and (max-width: 600px) {
-//     .moblie-responsive {
-//         display: flex;
-//         flex-direction: row;
-//     }
-// }
-
-
 /*first section ends here*/
-
 .content{
   width: 1000px;
   height: 1000px;
