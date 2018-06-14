@@ -7,7 +7,7 @@ $secondary: #303E4E !default;
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: $secondary;
+  background-color: none;
   color: $white;
 }
 
@@ -30,9 +30,9 @@ $secondary: #303E4E !default;
 
 .btn{
   font-size: 35px;
-  color: #A68ADB;
+  color: #back;
 }
 
 .contact{
-  color: #00A6FB;
+  color: lightgrey;
 }
