@@ -1,41 +1,24 @@
-.inner-navbar{
-  width: 100%;
-  padding: 20px;
-  position: absolute;
-  top: 0px;
-  text-align: center;
-}
-
-ul{
-  padding: 0px;
-}
-.inbetween ul li{
-  font-family: 'Open Sans', sans-serif;
-  display: inline-block;
-  color: blue;
+nav{
   display: flex;
+  justify-content: center;
+}
+a{
+  text-decoration: none !important;
+  color: black;
 }
 
-@media only screen and (max-width: 600px) {
-  .inner-navbar {
-    display: flex;
-  flex-direction: column;
-  }
+li{
+  display: inline !important;
+  margin: 0px 10px;
+  font-size: 100px;
 }
 
-.inbetween{
-  padding: 15px;
+.inline-list{
+  list-style-type: none;
+text-decoration: none;
+display: inline;
+text-align: center;
 }
-.inbetween:hover{
-  text-decoration: none;
-  color: #blue;
-}
-
-.material-icons{
-  color: white;
-}
-
-
 
 #myBtn {
   display: none;

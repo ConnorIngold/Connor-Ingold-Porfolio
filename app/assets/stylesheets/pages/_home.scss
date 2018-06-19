@@ -3,7 +3,9 @@ a{
   text-decoration: none;
   color: white;
 }
-
+li{
+  margin: 0px 10px;
+}
 .top {
   height: 1px;
   width: 50%;
@@ -24,8 +26,22 @@ a{
   opacity: 0.6;
 }
 
+.inline-list{
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  font-family: sans-serif;
+}
 
-
+.center-middle{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10%;
+  left: 0;
+  right: 0;
+}
 
 #particles-js {
   background: linear-gradient(141deg, #0fb8ad 0%, #A68ADB 51%, #A68ADB 75%);

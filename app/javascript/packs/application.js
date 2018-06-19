@@ -9,3 +9,9 @@
 
 import { loadDynamicBannerText } from '../components/banner';
 loadDynamicBannerText();
+
+import { smoothScroll } from '../components/scroll';
+smoothScroll();
+
+import { smoothScroll2 } from '../components/scroll2';
+smoothScroll2();

@@ -1,14 +1,26 @@
   <body>
+
+
   <!-- banner start here   -->
   <div id="particles-js">
     <div class="banner-content1">
+      <div class="center-middle">
+      <nav style="display: flex; justify-content: center;  background: none !important;">
+        <ul class="inline-list" >
+          <li style="display: inline;"><a href="#">About Me</a></li>
+          <li style="display: inline;"><a href="#">My Skill Set</a></li>
+          <li style="display: inline;"><a href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+      </div>
       <div class="actual-content-outer-div">
+
           <h1 class="name1">Connor Ingold<br>
           Full Stack Web Dev</h1>
             <h3 class="light-font"> Skill Set:
             <span id="hello"></span>
           </h3>
-          <%= javascript_pack_tag 'application' %>
+
           <div class="moblie-responsive">
             <!-- <%= link_to "Learn more about me", "underconstrution", class: "btn-medium" %> -->
             <button type="button" class="bttn-stretch" onclick="smoothScroll(document.getElementById('banner2'))" >Hover & Click For More </button>
@@ -19,18 +31,6 @@
     </div>
   </div>
 
-  <div class="outer-div-navbar">
-    <div class="inner-navbar">
-      <ul>
-        <%= link_to "Introduction", "underconstrution", class: "inbetween" %>
-        <%= link_to "About Me", "underconstrution", class: "inbetween" %>
-        <%= link_to "Blog", "underconstrution", class: "inbetween" %>
-        <%= link_to "My Interests", "underconstrution", class: "inbetween" %>
-        <%= link_to "Contact Me", "underconstrution", class: "inbetween" %>
-      </ul>
-       <hr class="top">
-    </div>
-  </div>
 
 
   <div class="banner2" id="banner2" style="background-image: url('https://res.cloudinary.com/desmpz4mv/image/upload/v1522405316/balcandwhite.jpg');">
@@ -39,40 +39,18 @@
       <p class="about-me2"> By the Chinese philosopher Laozi</p>
       <p class="about-me3">I often find people who spout such quotes quite pretentious.
       However, I went through hell these past 3 months and I generally feel as I have walked a 1000 miles in terms of self-development. If you're interested in reading what I went through go check out my blog (coming soon)</p>
+      <button type="button" class="bttn-stretch1" onclick="smoothScroll2(document.getElementById('scroll-point'))" >Hover & Click For More </button>
     </div>
   </div>
 
   <!-- banner2 ends here -->
-  <script type="text/javascript">
-  window.smoothScroll = function(target) {
-      var scrollContainer = target;
-      do { //find scroll container
-          scrollContainer = scrollContainer.parentNode;
-          if (!scrollContainer) return;
-          scrollContainer.scrollTop += 1;
-      } while (scrollContainer.scrollTop == 0);
 
-      var targetY = 0;
-      do { //find the top of target relatively to the container
-          if (target == scrollContainer) break;
-          targetY += target.offsetTop;
-      } while (target = target.offsetParent);
-
-      scroll = function(c, a, b, i) {
-          i++; if (i > 30) return;
-          c.scrollTop = a + (b - a) / 30 * i;
-          setTimeout(function(){ scroll(c, a, b, i); }, 20);
-      }
-      // start scrolling
-      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-  }
-  </script>
   <!-- banner3 starts here -->
 
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="scroll-point">
   <div class="row welcome text-center">
     <h1 class="text-center">Skills</h1>
-    <hr class="top2" style="background-color: white;">
+    <hr class="top2">
       <div class="col-md-6">
         <div class="card">
           <h1 class="card-title">Structure & Style</h1>
@@ -83,7 +61,7 @@
       <div class="col-md-6">
         <div class="card">
           <h1 class="card-title">Programming Lanuages</h1>
-          <img src="https://res.cloudinary.com/desmpz4mv/image/upload/v1528981561/1_1WLIF-RTvaTydutWJowZJQ_1_copy.png" style="height: 250px; width: 350px;" alt="hmtl css javascript image" class="first-item">
+          <img src="https://res.cloudinary.com/desmpz4mv/image/upload/v1528978680/1_1WLIF-RTvaTydutWJowZJQ_copy_copy.png" style="height: 250px; width: 350px;" alt="hmtl css javascript image" class="first-item">
         </div>
       </div>
   </div>
@@ -120,7 +98,7 @@
               <br>Northampton, Northamptonshire</p>
               <p class="lead mb-0">(I can work in either location)</p>
           </div>
-          <div class="col-md-4 mb-5 lg-5">
+          <div class="col-md-4 mb-5 mb-lg-5">
             <h4 class="text-uppercase mb-4">Check Me Out </h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
