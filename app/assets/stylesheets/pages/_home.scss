@@ -8,6 +8,10 @@ a:hover{
   text-decoration: none;
 }
 
+a:visited{
+  text-decoration: none;
+}
+
 li{
   margin: 0px 15px;
   letter-spacing: 1px;
@@ -24,6 +28,11 @@ li{
     font-size: 28px;
     color: lightgrey;
 }
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+}
+
 
 .top {
   position: absolute;
