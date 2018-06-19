@@ -7,14 +7,15 @@
       <div class="center-middle">
       <nav style="display: flex; justify-content: center;  background: none !important;">
         <ul class="inline-list" >
-          <li style="display: inline;"><a href="#">About Me</a></li>
-          <li style="display: inline;"><a href="#">My Skill Set</a></li>
-          <li style="display: inline;"><a href="#">Contact Me</a></li>
+          <li style="display: inline;"><a href="#" class="grow" onclick="smoothScroll(document.getElementById('banner2'))">About Me</a></li>
+          <li style="display: inline;"><a href="#" class="grow" onclick="smoothScroll2(document.getElementById('scroll-point'))">My Skill Set</a></li>
+          <li style="display: inline;"><a href="#" class="grow" onclick="smoothScroll2(document.getElementById('contact-me'))">Contact Me</a></li>
         </ul>
       </nav>
       </div>
-      <div class="actual-content-outer-div">
 
+      <div class="actual-content-outer-div">
+      <hr class="top">
           <h1 class="name1">Connor Ingold<br>
           Full Stack Web Dev</h1>
             <h3 class="light-font"> Skill Set:
@@ -89,10 +90,10 @@
   </div> -->
 
         <!-- Footer -->
-    <footer class="footer text-center">
+    <footer class="footer text-center" id="contact-me">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 mb-5 lg-4">
+          <div class="col-md-4 mb-4 lg-4">
             <h4 class="text-uppercase mb-4">Location</h4>
             <p class="lead mb-0">Whitchapel, London &amp;
               <br>Northampton, Northamptonshire</p>
@@ -119,7 +120,6 @@
               <li class="list-inline-item">
                 <a class="btn btn-outline-light btn-social text-center rounded-circle" href="http://www.codewithus.xyz/">
                   <i class="fa fa-code"></i>
-
                 </a>
               </li>
             </ul>
