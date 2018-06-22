@@ -9,3 +9,22 @@
 
 import { loadDynamicBannerText } from '../components/banner';
 loadDynamicBannerText();
+
+for (let i = 0; i < listItems.length; i++){
+  listItems[i].addEventListener('mouseover', () =>{
+  listItems[i].textContent = listItems[i].textContent.toUpperCase();
+  });
+
+  listItems[i].addEventListener('mouseout', () =>{
+  listItems[i].textContent = listItems[i].textContent.toLowerCase();
+  });
+}
+
+
+listDiv.addEventListener('mouseover', (event) =>{
+event.target.textContent = event.target.textContent.toUpperCase();
+});
+
+listDiv.addEventListener('mouseout', (event) =>{
+event.target.textContent = event.target.textContent.toLowerCase();
+});

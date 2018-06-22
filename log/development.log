@@ -30998,3 +30998,19 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 577ms (Views: 575.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-06-22 13:51:50 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /Users/connoringold/code/killercarwash/Connor-Ingold/public/packs
+Completed 200 OK in 4369ms (Views: 4117.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-06-22 13:53:05 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 35.3ms)
+
+
